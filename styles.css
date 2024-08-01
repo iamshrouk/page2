@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ملء الشاشة عموديا */
+    background-color: #ffffff; /* خلفية الصفحة بيضاء */
+}
+
+.page-container {
+    text-align: center; /* محاذاة النصوص في منتصف الصفحة */
+}
+
+.heading {
+    color: rgba(36, 34, 30, 1);
+    font-family: Poppins, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    margin-bottom: 20px; /* مسافة بين العنوان والنص */
+}
+
+.background-container {
+    position: relative;
+    background: rgba(243, 233, 235, 1);
+    padding: 10px 30px; /* حشو لزيادة المسافة حول النص */
+    border-radius: 8px;
+    display: inline-block; /* جعل الخلفية في سطر واحد */
+    text-align: center; /* توسيط النص داخل الخلفية */
+    margin: 0 auto; /* توسيط الخلفية */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    width: auto; /* ضبط العرض تلقائيًا */
+    max-width: 100%; /* عرض أقصى يمكن أن يصل إليه العنصر */
+    min-height: 100px; /* الطول الأدنى */
+}
+
+.background-text {
+    color: rgba(36, 34, 30, 1);
+    font-family: Inter, sans-serif;
+    font-size: 16px; /* حجم النص */
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0; /* إزالة المسافة السفلية */
+}
+
+.copy-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #808080; /* لون نسخ رمادي */
+    cursor: pointer;
+}
+
+.copy-icon:hover {
+    color: #606060; /* لون أغمق عند المرور فوق الأيقونة */
+}
+
